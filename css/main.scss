@@ -94,27 +94,3 @@ nav img{
     transition: 1s;
 }
 
-@media (max-width: 700px){
-    .text-box h1{
-       font-size: 20px;
-    }
-
-    .nav-links{
-        position: absolute;
-        background: #e0dede;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: 0;
-        text-align: left;
-        z-index: 2;
-    }
-
-    .nav-links ul li{
-        display: block;
-    }
-
-    .nav-links ul li a{
-        color: black;
-    }
-}  
