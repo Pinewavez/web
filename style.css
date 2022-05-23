@@ -152,4 +152,38 @@ nav .nav-ctrl{
     .nav-links ul{
         padding: 30px;
     }
+
 }  
+
+
+ /* Services Section */
+ .services{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.services h1{
+    font-size: 36px;
+}
+
+.services-row{
+    margin-top: 5%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.services-col img{
+    height: 200px;
+}
